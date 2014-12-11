@@ -274,10 +274,14 @@ ArrayList<Map<String, String>> memberList = (ArrayList<Map<String, String>>)requ
 		  var a_value = $(this).children('option:selected').attr("title");
 		  $("#a_value").val(a_value);
 	  }); 
-	  	$(function (){
-	  		var area_id_other = $("#area_id option[text='其他']").val();
-	  		$("#area_id").val(area_id_other);
-	  	});	
+	  var area_id_other;
+	  $("#area_id option").each(function () {
+	      if ($(this).text() == '其他') {
+	      	area_id_other = $(this).val();
+	      	alert(area_id_other);
+	      }
+	  });
+	  $("#area_id").val(area_id_other);
   });
   function add() {
 	 $(".msg_common").text("");

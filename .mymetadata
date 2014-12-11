@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="keyan"
+  id="myeclipse.1351603711803"
+  context-root="/keyan"
+  j2ee-spec="5.0"
+  archive="keyan.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
