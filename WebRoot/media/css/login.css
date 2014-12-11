@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+html {
+	background: #0D7BD5 url('./images/glow.png') no-repeat center center;
+	/*filter:alpha(opacity=90);  
+    -moz-opacity:0.9;  
+    -khtml-opacity: 0.9;  
+    opacity: 0.9;*/
+	/**--background: #0D7BD5 url('./images/glow.png') no-repeat center center;-*/
+}
+* {
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+#login {
+	width:400px;
+	margin-left:-200px;
+	border: 5px solid #eee;
+	border-radius: 4px; 
+	background:#fff;
+    position: absolute;/*--絕對定位--*/
+    top: 42%;
+    left: 50%;
+}
+#login .header {
+	margin: 0 0 18px 0;
+	line-height: 2.5;
+	color: #2D2F31;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    height: 50px;
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA);
+	background: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#eaeaea');
+}
+.msg {
+	text-align: center;
+	color: #FF5243;
+	font-size: 12px;
+	margin:0;
+}
+.p_input {
+	margin: 10px 40px;
+	height: 40px;
+	line-height:2;
+}
+.p_input span{
+    margin-right: 5px; 
+    color: #888;
+    width:54px;
+    display:inline-block;
+	font-size:18px;
+}
+.p_input input {
+	width:240px;
+	height: 36px;
+	border:1px solid #79B7E7;
+	font-size:18px;
+}
+.p_input input:hover {
+	border:1px solid #79B7E7
+}
+.div_submit {
+    margin: 21px auto 24px;
+    text-align: center;
+}
+#login_submit {
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 16px;
+    border-radius: 4px;
+    letter-spacing: 5px;
+    text-align: center;
+    border: 1px solid #aaa;
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA);
+	background: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#eaeaea');
+    padding: 5px 14px;
+}
+* {margin:0; padding:0;}
+#bottom {
+    position: absolute;/*--絕對定位--*/
+    width:100%;
+	margin-top:10px;
+	text-align:center; 
+	font-size:16px; 
+	line-height:3; 
+	color:#fff; 
+	height:42px; }
+#bottom span{font-family:\5FAE\8F6F\96C5\9ED1;}
