@@ -278,7 +278,6 @@ ArrayList<Map<String, String>> memberList = (ArrayList<Map<String, String>>)requ
 	  $("#area_id option").each(function () {
 	      if ($(this).text() == '其他') {
 	      	area_id_other = $(this).val();
-	      	alert(area_id_other);
 	      }
 	  });
 	  $("#area_id").val(area_id_other);
